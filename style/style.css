@@ -1,0 +1,67 @@
+body {
+    background-color: #FAF0E6;
+    font-family: 'Times New Roman', Times, serif;
+    /* select off */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* loading */
+.loading {
+    background-color: #FAF0E6;
+    height: 100vh;
+    width: 100;
+}
+
+.btn {
+    font-family: "Mukta", sans-serif;
+    text-transform: lowercase;
+}
+
+/* title */
+.title {
+    margin-top: 50px;
+    color: #FAF0E6;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 2.5px #666;
+
+}
+
+.title-ukraine {
+    position: relative;
+    color: #FFD700;
+    font-size: 70px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    background-color: #FAF0E6;
+}
+
+.title-ukraine::before {
+    content: "UKRAINE";
+    height: 50%;
+    position: absolute;
+    color: #0057B8;
+    overflow: hidden;
+}
+
+/* image */
+.header-image {
+    width: 130px;
+}
+
+.header-image-lg {
+    width: 180px;
+}
+
+/* footer */
+.footer {
+    font-family: "Mukta", sans-serif;
+    font-size: 13px;
+    color: #666;
+}

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TODAY | telegram</title>
+
+    <!-- material design bootstrap css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css" rel="stylesheet" />
+
+    <!-- font -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../style/rss-feed.css">
+    <link rel="stylesheet" type="text/css" href="../style/loading.css">
+
+</head>
+
+<body>
+
+    <!-- loading -->
+    <div id="loading">
+        <div class="loading-icon"></div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-xl sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler mx-auto" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item nav-header">
+                        <a class="nav-link" href="../index.html"><b>TODAY</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">•</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./theguardian.html">THE GUARDIAN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./forbes.html">FORBES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./bbc.html">BBC</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-mdb-toggle="dropdown" aria-expanded="false">
+                            MORE SOURCES
+                        </a>
+                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                            <li>
+                                <a class="dropdown-item" href="./jutarnji.html">
+                                    JUTARNJI LIST</a></a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item active-dropdown" href="#">TELEGRAM</a></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">•</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link muted" href="./about.html">ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header image -->
+    <div class="mt-3 mb-3">
+        <img class="header-image-lg" src="./img/telegram.png">
+    </div>
+
+    <script type="text/javascript">
+        rssfeed_url = new Array();
+        rssfeed_url[0] = "";
+        rssfeed_frame_width = "600";
+        rssfeed_frame_height = "500";
+        rssfeed_scroll = "off";
+        rssfeed_scroll_step = "6";
+        rssfeed_scroll_bar = "on";
+        rssfeed_target = "_blank";
+        rssfeed_font_size = "13";
+        rssfeed_font_face = "Mukta, sans-serif";
+        rssfeed_border = "on";
+        rssfeed_title = "off";
+        rssfeed_title_name = "";
+        rssfeed_title_bgcolor = "#FAF0E6";
+        rssfeed_title_color = "#333";
+        rssfeed_footer = "off";
+        rssfeed_footer_bgcolor = "#fff";
+        rssfeed_footer_color = "#333";
+        rssfeed_item_title_length = "300";
+        rssfeed_item_title_color = "#333";
+        rssfeed_item_bgcolor = "#fff";
+        rssfeed_item_border_bottom = "on";
+        rssfeed_item_source_icon = "off";
+        rssfeed_item_date = "off";
+        rssfeed_item_description = "on";
+        rssfeed_item_description_length = "300";
+        rssfeed_item_description_color = "#777";
+        rssfeed_item_description_link_color = "#333";
+        rssfeed_item_description_tag = "on";
+        rssfeed_no_items = "150";
+        rssfeed_cache = "";
+    </script>
+
+    <!-- loading javascript -->
+    <script src="../components/loading.js"></script>
+
+    <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script>
+
+    <!-- material design bootstrap javascript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+
+</body>
+
+</html>
